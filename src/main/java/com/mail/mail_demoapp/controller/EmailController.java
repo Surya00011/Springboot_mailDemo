@@ -60,6 +60,7 @@ public class EmailController {
                 helper.addAttachment(multipartFile.getOriginalFilename(), multipartFile);
             }
             // HTML content for the email with inline styles
+
             String htmlContent = "<html>" +
                     "<head>" +
                     "<style>" +
