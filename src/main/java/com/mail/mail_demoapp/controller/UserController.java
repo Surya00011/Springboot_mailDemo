@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/home")
     public String home() {
+        System.out.println("home from main");
         return "Welcome to homePage";
     }
 }
