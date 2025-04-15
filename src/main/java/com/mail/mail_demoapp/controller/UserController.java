@@ -8,6 +8,6 @@ public class UserController {
     @GetMapping("/home")
     public String home() {
         System.out.println("home from main");
-        return "Welcome to homePage";
+        return "Welcome to HomePage";
     }
 }
