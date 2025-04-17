@@ -83,7 +83,7 @@ public class EmailController {
             helper.setText(htmlContent, true);  // "true" to indicate HTML content
 
             mailSender.send(message);
-            return ResponseEntity.ok("HTML email sent successfully");
+            return ResponseEntity.ok("HTML email sent successfully"); //hello
 
         } catch (MessagingException e) {
             return ResponseEntity
