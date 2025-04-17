@@ -21,3 +21,6 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install -DskipTests
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
